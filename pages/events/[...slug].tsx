@@ -23,7 +23,7 @@ function FilteredEventPage() {
         isNaN(numYear) ||
         isNaN(numMonth) ||
         numYear > 2030 ||
-        numMonth < 2021 ||
+        numYear < 2020 ||
         numMonth < 1 ||
         numMonth > 12
     ) {
